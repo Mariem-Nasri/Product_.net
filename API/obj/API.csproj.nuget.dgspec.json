@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\API\\API.csproj": {}
+    "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\API\\API.csproj": {
+    "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\Rouissi Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\API\\obj\\",
+        "projectPath": "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\marie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rouissi Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +22,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Persistance\\Persistance.csproj": {
-                "projectPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Persistance\\Persistance.csproj"
+              "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\Persistance\\Persistance.csproj": {
+                "projectPath": "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\Persistance\\Persistance.csproj"
               }
             }
           }
@@ -38,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -90,21 +96,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Application\\Application.csproj": {
+    "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Rouissi Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Application\\obj\\",
+        "projectPath": "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\marie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rouissi Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -112,14 +118,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Domain\\Domain.csproj"
+              "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\Domain\\Domain.csproj"
               }
             }
           }
@@ -128,12 +135,21 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Confluent.Kafka": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -141,6 +157,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[11.1.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.AspNetCore.SignalR.Core": {
               "target": "Package",
@@ -153,6 +173,10 @@
             "Microsoft.Extensions.Hosting.Abstractions": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.3.0, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",
@@ -175,21 +199,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Domain\\Domain.csproj": {
+    "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Rouissi Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\marie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rouissi Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -197,6 +221,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -209,11 +234,26 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -230,21 +270,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Persistance\\Persistance.csproj": {
+    "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\Persistance\\Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Persistance\\Persistance.csproj",
+        "projectUniqueName": "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\Persistance\\Persistance.csproj",
         "projectName": "Persistance",
-        "projectPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Persistance\\Persistance.csproj",
-        "packagesPath": "C:\\Users\\Rouissi Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Persistance\\obj\\",
+        "projectPath": "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\Persistance\\Persistance.csproj",
+        "packagesPath": "C:\\Users\\marie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rouissi Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -252,17 +292,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Application\\Application.csproj"
+              "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\Application\\Application.csproj"
               },
-              "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Domain\\Domain.csproj"
+              "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\marie\\OneDrive\\Bureau\\archi\\Documents\\Projet Product\\Domain\\Domain.csproj"
               }
             }
           }
@@ -271,6 +312,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -290,6 +336,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.20, )"
+            },
+            "Npgsql.Bulk": {
+              "target": "Package",
+              "version": "[0.11.0-beta, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
@@ -312,7 +362,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

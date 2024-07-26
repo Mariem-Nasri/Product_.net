@@ -1,6 +1,8 @@
-﻿using Application.Interfaces;
+﻿#nullable disable
+using Application.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Persistance.Data;
+using Persistance.Repositories;
 
 namespace API.Extension
 {
@@ -8,11 +10,12 @@ namespace API.Extension
     {
         public static void ConfigureContext(this IServiceCollection services, IConfiguration configuration)
         {
-
-            services.AddDbContext<TrackingContext>(options => options.UseNpgsql(GetConnectionInfo(configuration).ToString()).EnableSensitiveDataLogging());
+            services.AddDbContext<CleanArchitectureContext>(options => options.UseNpgsql(GetConnectionInfo(configuration).ToString()).EnableSensitiveDataLogging());
             AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
             // Register Data Access Layer
-            services.AddScoped<ITrackingContext,TrackingContext>();
+            services.AddScoped<ICleanArchitectureContext,CleanArchitectureContext>();
+            services.AddScoped<ITestRepository, TestRepository>();
+            services.AddScoped<IProductRepository, ProductRepository>();
         }
 
         private static DbConnectionInfo GetConnectionInfo(IConfiguration configuration)
